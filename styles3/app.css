@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+
+.box1,
+.box2,
+.box3 {
+    height: 150px;
+    margin-bottom: 24px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: blueviolet;
+}
+
+.overlay{
+    height: 1800px;
+}
+
+.box3{
+    position: fixed;
+    width: 1000px;
+    right: 0;
+    bottom: 0;
+}
