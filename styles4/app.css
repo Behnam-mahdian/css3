@@ -1,0 +1,12 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+}
+.box{
+    background-color:white;
+    color:black;
+    height: 200px;
+    font-size: 20px;
+    border: 8px solid red;
+    overflow: scroll;
+}
