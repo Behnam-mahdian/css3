@@ -1,0 +1,40 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
+}
+.box1,
+.box2,
+.box3{
+    height: 200px;
+    border-width: 15px;
+border-style: solid;}
+
+.box1{
+    background-color: brown;
+    border-color: blanchedalmond;
+}
+.box2{
+    background-color: azure;
+    border-color: chartreuse;
+}
+.box3{
+    background-color: darkgray;
+    border-color: darkgoldenrod;
+}
+
+.box1-child1,
+.box2-child2 {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    
+
+}
+.box1-child1{
+    background-color: darkgreen;
+    right: 10px;
+}
+
+.box2-child2{
+    background-color: olivedrab;
+}
