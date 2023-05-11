@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+     
+width: 1216px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 56px;
+display: block;
+gap: 24px;
+overflow: scroll;
+position: relative;
+
+}
+
+.section-head {
+    background-color: brown;
+    display: block;
+    position: relative;
+    
+}
+.see {
+margin-left: 10px
+
+
+}
+
+.new {
+margin-right: 10px;
+background-color: red;
+}
+
+    
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+.img1 {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.img3 {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.img4 {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
