@@ -9,7 +9,14 @@ margin-right: auto;
 margin-left: auto;
 display: flex;
 gap: 24px;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+height: 400px;
+
 }
+
+
 .flex-item {
     height: 200px;
     width: 200px;
