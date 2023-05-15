@@ -1,157 +1,48 @@
-
-@font-face{
-    font-family: vazir light;
-    src: local(vazir light), url(../fonts/ttf/Vazirmatn-Light.ttf) format(truetype), 
-    url(../fonts/woff2/Vazirmatn-Light.woff2) format(woff2);
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
 
-@font-face{
-    font-family: vazir regular;
-    src: local(vazir bold), url(../fonts/ttf/Vazirmatn-Bold.ttf) format(truetype), 
-    url(../fonts/woff2/Vazirmatn-Bold.woff2) format(woff2);
-}
-
-*{box-sizing: border-box;
-margin: 0;
-text-decoration: none;
-text-transform: capitalize;
-font-family: roboto;
-margin-left: auto;
-margin-right: auto;
-
-}
-
-body
-{font-family: vazir light;
-font-size: 24;
-background-color:#531717;
-font-family: roboto;
-
-}
-
-
-
-.main div{color: blue;}
-
-.main div{border: 1px solid red;}
-
-.main > .content-2{ border: 1px solid black;}
-
-h1 + p {font-weight: bold; color: red;}
-h1 ~ p {color: darkviolet;}
-.beh{color: rgb(200, 100, 50);}
-
-.picture{ width: 800px; height: 800px;
-    
- background: url(../picture/everest.jpg) no-repeat fixed 100%;
-}
-
-h3 {
-    /* border-width: 2px; */
-/* border-color: blue; */
-/* border-style: solid; */
-background-color: white;
-color: blue;
-border-right: 10px green solid ;
-border-radius: 50px;
-text-indent: 20px;
-letter-spacing: 1px;
-word-spacing: 1px;
-font-size: 30px;
-text-shadow: 30px;
-}
-
-div{width: 500px;}
-
-.box1 {
-    background-color: rgb(3, 3, 75); 
-    margin: 20px 15px 20px 15px ;
-    padding: 20px;
-
-
- border: 6px solid red 
-
-}
-.box2 {
-    background-color: rgb(214, 194, 8);
-    
-
-    border: 6px solid blue 
-}
-
-span{
-    font-size: 0.5em;
-}
+/* element */
 p{
-    font-size: 35px;
-    max-width: 500px;
-    min-width: 300px;
-    text-indent: 20px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    color: antiquewhite;
-    text-shadow: 30px;
-
+    color: brown;
 }
 
-.behi {
-    background-color: lightgray;
-    width: 50vw;
-    height: 400px;
-    text-align:right;
-    font-size: 50px;
-    text-shadow: 80px;
-
-    
-}
-
-.yes{
-    width: 100px; 
-    margin-top: 50px; margin-right: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    outline: 2px solid black; outline-offset: 2px;
-}
-.in{ outline-style: dotted; direction: ltr;
-
-    
-}
-.in:focus{
-    outline-color: blue;
-
-}
-
-.align{ 
-   border-radius: 12px solid black;
-    padding: 24px;
-    background-color: green;
-    margin-top: 50px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 12px;
-    text-align: justify ;  
-    text-decoration:none;  
-    text-transform: capitalize;
-    text-shadow: 2px 2px 0 white;
-    box-shadow: 2px 2px black;
-    font-weight: bolder;
-    
-   
-}
-h1:hover{ 
-    color: yellow;
-}
-
-h1:hover + p{
+/* id */
+#mytext{
     color: blue;
 }
-ul{
-    list-style-image: url(https://icongr.am/clarity/check-circle.svg?size=23&color=currentColor);
-    border: 1px solid black;
-    list-style-position: outside;
+
+/* class */
+.caption{
+    color: chartreuse;
 }
 
-div{
-    border: 1px solid black;
-    padding: 10px;
+/* all elements */
+*{
+font: small-caption;}
+
+/* gruping */
+h1, h2 {
+    font-family: fantasy;
+    color: orange;
+}
+
+/* element element */
+.mysection .content-1{
+    color: slategray;
+}
+/* element > element */
+.mysection  > div {
+    border: solid red;
+}
+
+/* element 1 + element 2  */
+h2 + p {
+    font-weight: bold;
+}
+
+/* element 1 ~ element 2 */
+/* h2 ~ p { */
+    font-weight: bold;
 }
