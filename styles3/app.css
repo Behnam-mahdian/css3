@@ -1,35 +1,24 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
 body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: burlywood;
+font-family: 'Times New Roman', Times, serif;
+font-size: 24px;
+} 
+
+
+div{ 
+    height: 50px;
+    
 }
 
-.box1,
-.box2,
-.box3 {
-    height: 150px;
-    margin-bottom: 24px;
-}
-.box1{
+
+.box1 {
     background-color: aqua;
+    border: 1px solid red;
+    margin: 10px 20px 30px 40px;
+   
 }
-.box2{
-    background-color: blue;
-}
-.box3{
+
+.box2 {
     background-color: blueviolet;
-}
-
-.overlay{
-    height: 1800px;
-}
-
-.box3{
-    position: fixed;
-    width: 1000px;
-    right: 0;
-    bottom: 0;
+    border: 1px solid green;
+    margin: 10px 20px 30px 40px;
 }
