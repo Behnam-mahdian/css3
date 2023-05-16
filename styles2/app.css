@@ -1,0 +1,22 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+}
+
+h1 {
+    /* border-width */
+    /* border-style */
+    /* border-color */
+
+    /* border: 1px solid blue; */
+    background-color: aqua;
+    color:#ffff;
+    border-right: 2px solid red;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    border-radius: 20px;
+}
