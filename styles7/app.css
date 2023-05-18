@@ -4,7 +4,7 @@
 }
 
 body{
-    font-size: 4px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
@@ -12,13 +12,14 @@ body{
 div {
     background-color: cadetblue;
     color: darkgreen;
-    border-radius: 4px;
+    border-radius: 14px;
     padding: 24px;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 40px;
-    width: 150px;
+    margin-top: 150px;
+    margin-left: 400px;
+    width: 500px;
     margin-bottom: 20px;
+    text-transform: capitalize;
 
 }
 
@@ -37,6 +38,11 @@ input {
     font-size: 4px;
     direction: ltr;
     margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 /* 
 text-align
