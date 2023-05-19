@@ -1,3 +1,13 @@
+@font-face {
+    font-family: vazir light;
+    src: url(../fonts/ttf/Vazirmatn-Light.ttf) format(truetype) , 
+    url(../fonts/woff2/Vazirmatn-Light.woff2) format(woff2);
+}
+@font-face {
+    font-family: vazir bold;
+    src: url(../fonts/ttf/Vazirmatn-bold.ttf) format(truetype) , 
+    url(../fonts/woff2/Vazirmatn-bold.woff2) format(woff2);}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +16,8 @@
 body{
     font-size: 24px;
     box-sizing: border-box;
-    font-family: 'Instrument Sans', sans-serif;;
+    /* font-family: 'Instrument Sans', sans-serif;; */
+    font-family: vazir bold;
 }
 
 div {
