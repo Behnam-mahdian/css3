@@ -10,3 +10,13 @@ ul {
     list-style-position: inside;
     
 }
+
+a {
+    /* display: none; */
+    display:block
+    
+}
+a{ 
+    text-align: right;
+    
+}
