@@ -9,6 +9,7 @@
  body {
     margin: 0px;
     padding: 0px;
+    margin-top: -142px;
  }
 
 div {
@@ -21,9 +22,9 @@ div {
 .container {
     background-color: white;
     height: 120px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 204px;
-    margin-left: 97px;
+    margin-left: 60px;
     margin-right: 100px;
     display: flex;
     justify-content: space-between;
@@ -65,12 +66,13 @@ div {
 
 
 
- .img {
+ .imgj {
     
         width: 210px;
         height: 150px;
         position: relative;
         text-decoration: none;
+        margin-left: 29px;
     
  }
 
@@ -78,7 +80,22 @@ div {
     width: 210px;
     height: 150px;
     position: relative;
-    text-decoration: none;
+ }
+ .img2 {
+    width: 210px;
+    height: 150px;
+    position: relative;
+ }
+ .imgg {
+    width: 210px;
+    height: 150px;
+    position: relative;
+ }
+
+ .img3 {
+    width: 210px;
+    height: 150px;
+    position: relative;
  }
 
  .a2 {
@@ -104,6 +121,33 @@ div {
     text-align: left;
     color: black;
  }
+ .a4 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 24px;
+    font-size: 100%;
+    position: absolute;
+    text-align: left;
+    color: black;
+    margin-left: 15px;
+ }
+ .a44 {
+    color: black;
+ }
+ .a5 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 188px;
+    font-size: 100%;
+    position: absolute;
+    text-align: left;
+    color: black;
+    margin-left: 15px;
+    display: inline-block;
+ }
+ .a55 {
+    color: black;
+ }
 
  .a33 {
     color: black;
@@ -124,6 +168,23 @@ div {
     position: absolute;
     display: block;
  }
+ .hp {
+    text-decoration: line-through;
+    margin-top: 255px;
+    font-size: 8px;
+    position: absolute;
+    display: inline-block;
+    margin-left: -223px;
+
+ }
+ .hd {
+    text-decoration: line-through;
+    margin-top: 55px;
+    font-size: 8px;
+    position: absolute;
+    display: inline-block;
+    margin-left: -169px;
+ }
  .p1 {
     background-color: aqua;
     font-size: 13px;
@@ -138,6 +199,23 @@ div {
     margin-left: 45px;
     position: absolute;
     margin-top: 40px;
+    display: block;
+}
+.p3 {
+    background-color: aqua;
+    font-size: 13px;
+    margin-left: 45px;
+    position: absolute;
+    margin-top: -18px;
+    display: block;
+}
+
+.p4 {
+    background-color: aqua;
+    font-size: 13px;
+    margin-left: 45px;
+    position: absolute;
+    margin-top: -18px;
     display: block;
 }
  .pr {
@@ -168,7 +246,20 @@ div {
     margin-left: 0px;
     margin-top: 4px;
  }
-
+.price2 {
+    width: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3px;
+}
+.price3 {
+    width: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+}
  .star {
     color: yellow;
     display: block;
@@ -185,6 +276,23 @@ div {
     margin-left: 200px;
     position: inherit;
  }
+ .star2 {
+    color: yellow;
+    display: block;
+    width: 25px;
+    margin-left: 200px;
+    position: inherit;
+    display: inline-block;
+ }
+ .star3 {
+    color: yellow;
+    display: block;
+    width: 25px;
+    margin-left: 187px;
+    position: inherit;
+    display: inline-block;
+    margin-top: -4px;
+ }
 
  .mark {
     position: inherit;
@@ -199,6 +307,26 @@ div {
     font-size: 17px;
     margin-top: 4px;
  }
+ .mark2 {
+    position: inherit;
+    margin-left: 176px;
+    font-size: 17px;
+    margin-top: 4px;
+    display: inline-block;
+ }
+ .mark3 {
+    position: inherit;
+    margin-left: 176px;
+    font-size: 17px;
+    margin-top: 0px;
+    display: inline-block;
+ }
+ .img {
+    position: inherit;
+    margin-left: 176px;
+    font-size: 17px;
+    margin-top: 4px;
+ }
 
 .flex {
     width: 280px;
@@ -206,11 +334,12 @@ div {
     margin: 10px;
     padding: 1px;
     flex-flow: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* line-height: 190px; */
     text-align: center;
     border-radius: 11px;
     text-decoration: none;
+    box-shadow:  3px 0px 5px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -221,9 +350,10 @@ div {
     margin: 10px;
     padding: 1px;
     flex-flow: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 1px;
     border-radius: 11px;
+    box-shadow:  3px 0px 5px rgba(0, 0, 0, 0.5);
 
  }
 
@@ -233,8 +363,9 @@ div {
     margin: 10px;
     padding: 1px;
     flex-flow: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 11px;
+    box-shadow:  3px 0px 5px rgba(0, 0, 0, 0.5);
 
  }
 
@@ -244,7 +375,9 @@ div {
     margin: 10px;
     padding: 1px;
     flex-flow: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 11px;
+    margin-right: 133px;
+    box-shadow:  3px 0px 5px rgba(0, 0, 0, 0.5);
 
  }
