@@ -6,6 +6,10 @@
     text-transform: capitalize;
     text-decoration: none;
 }
+ body {
+    margin: 0px;
+    padding: 0px;
+ }
 
 div {
     text-align: center;
@@ -19,11 +23,11 @@ div {
     height: 120px;
     border: 1px solid black;
     margin-top: 204px;
-    margin-left: 35px;
+    margin-left: 97px;
     margin-right: 100px;
     display: flex;
     justify-content: space-between;
-    width: 1150px;
+    width: 1172px;
 }
 
 .con1 {
@@ -69,6 +73,14 @@ div {
         text-decoration: none;
     
  }
+
+ .img1 {
+    width: 210px;
+    height: 150px;
+    position: relative;
+    text-decoration: none;
+ }
+
  .a2 {
     display: block;
     box-sizing: border-box;
@@ -83,18 +95,109 @@ div {
     color: black;
  }
 
+ .a3 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 170px;
+    font-size: 100%;
+    position: absolute;
+    text-align: left;
+    color: black;
+ }
+
+ .a33 {
+    color: black;
+ }
+
  .h1 {
     text-decoration: line-through;
     margin-top: 240px;
     font-size: 8px;
     position: absolute;
+    display: inline;
+ }
+
+ .h11 {
+    text-decoration: line-through;
+    margin-top: 38px;
+    font-size: 8px;
+    position: absolute;
+    display: block;
  }
  .p1 {
     background-color: aqua;
     font-size: 13px;
-    margin-left: 35px;
+    margin-left: 45px;
     position: absolute;
     margin-top: 240px;
+    display: inline;
+ }
+.p2 {
+    background-color: aqua;
+    font-size: 13px;
+    margin-left: 45px;
+    position: absolute;
+    margin-top: 40px;
+    display: block;
+}
+ .pr {
+    width: 200px;
+    height: 35px;
+    margin-top: 260px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+ }
+
+ .pr1 {
+    width: 200px;
+    height: 35px;
+    margin-top: 58px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+ }
+
+ .price{
+    margin-left: 0px;
+    margin-top: 4px;
+ }
+ .price1 {
+    margin-left: 0px;
+    margin-top: 4px;
+ }
+
+ .star {
+    color: yellow;
+    display: block;
+    width: 25px;
+    margin-left: 200px;
+    position: inherit;
+
+ }
+
+ .star1{
+    color: yellow;
+    display: block;
+    width: 25px;
+    margin-left: 200px;
+    position: inherit;
+ }
+
+ .mark {
+    position: inherit;
+    margin-left: 176px;
+    font-size: 17px;
+    margin-top: 4px;
+ }
+
+ .mark1 {
+    position: inherit;
+    margin-left: 176px;
+    font-size: 17px;
+    margin-top: 4px;
  }
 
 .flex {
@@ -114,7 +217,7 @@ div {
 
  .flex1 {
     width: 280px;
-    height: 200px;
+    height: 300px;
     margin: 10px;
     padding: 1px;
     flex-flow: wrap;
@@ -126,7 +229,7 @@ div {
 
  .flex2 {
     width: 280px;
-    height: 200px;
+    height: 300px;
     margin: 10px;
     padding: 1px;
     flex-flow: wrap;
@@ -137,7 +240,7 @@ div {
 
  .flex3 {
     width: 280px;
-    height: 200px;
+    height: 300px;
     margin: 10px;
     padding: 1px;
     flex-flow: wrap;
