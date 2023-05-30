@@ -1,0 +1,58 @@
+* {
+}
+
+.container {
+    width: 1280px;
+    margin-top: 56px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.checkbox:checked + .alert {
+    display: block;
+}
+
+.alert {
+    display: none;
+}
+
+.item:nth-child(odd) {
+    color: coral;
+}
+.container1 {
+    position: relative;
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto
+    
+    
+    
+    
+}
+
+.title::after{
+    content: "" ;
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-color: blue;
+    border-radius: 200px;
+    position: absolute;
+    right: 0px;
+    margin: 0px;
+    left: 70px;
+    bottom: 6px;
+    text-decoration: line-through;
+
+
+
+}
+
+.title {
+    right: 10px;
+    position: absolute;
+    bottom: 1px;
+    text-decoration: line-through;
+}
+
