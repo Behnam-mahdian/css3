@@ -1,0 +1,74 @@
+* {
+}
+
+::selection {
+    color: white;
+    background-color: yellow;
+
+}
+
+.container {
+    width: 1280px;
+    margin-top: 56px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.checkbox:checked + .alert {
+    display: block;
+}
+
+.alert {
+    display: none;
+}
+
+.item:nth-child(odd) {
+    color: coral;
+}
+.container1 {
+    position: relative;
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto
+    
+    
+    
+    
+}
+
+.title::after{
+    content: "" ;
+    width: 24px;
+    height: 3px;
+    background-color: blue;
+    border-radius: 2px;
+    position: absolute;
+    right: 0px;
+    margin: auto;
+    left: 116px;
+    top: 0px;
+    bottom: 0px;
+
+
+
+}
+
+.title {
+    right: 10px;
+    position: absolute;
+    bottom: 1px;
+}
+
+[type=text] {
+    background-color: brown;
+}
+
+[href^="https://"] {
+    background-color: yellowgreen;
+}
+
+[href*=schools] {
+    background-color: forestgreen;
+}
+
