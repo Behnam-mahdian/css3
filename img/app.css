@@ -1,0 +1,17 @@
+* {
+    /* background-color: blueviolet; */
+    /* background-image: url(../picture/everest.jpg); */
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #B3E5FC, rgba(0, 0, 0, 0.5)), url("/picture/everest.jpg");
+
+
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
