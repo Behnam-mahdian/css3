@@ -7,11 +7,46 @@
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    background-image: linear-gradient(to right, #B3E5FC, rgba(0, 0, 0, 0.5)), url("/picture/everest.jpg");
-
-
-    
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(255,255,255,1)), url(/picture/everest.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
+.box {
+    width: 250px;
+    height: 200px;
+    background-color: brown;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* transition-duration: 10s; */
+    transition-property: transform;
+    /* transition: all; */
+    transition-delay: 5s;
+}
+
+.box:hover {
+    background-color: blue;
+    transform: rotate(45deg); width: 300px; height: 300px;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    transition: width 2s;
+  }
+  
+  #div1 {transition-timing-function: linear;}
+  #div2 {transition-timing-function: ease;}
+  #div3 {transition-timing-function: ease-in;}
+  #div4 {transition-timing-function: ease-out;}
+  #div5 {transition-timing-function: ease-in-out;}
+  
+  div:hover {
+    width: 300px;
+  }
