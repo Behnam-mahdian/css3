@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    max-width: 1300px;
+    margin:2rem
+}
+
+.section-nav{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    margin-top: 1rem;
+    border-radius: 12px;
+    padding: 1rem 2rem ;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+
+}
+
+img{
+    width: 100%;
+}
+.section-log{
+    display: flex;
+}
+
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.left-nav{
+    height: 100%;
+}
+
+.box-img-log{
+    min-width: 50px;
+}
